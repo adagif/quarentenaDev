@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+
+<p id="paragrafoResultado">
+  Clique no botão para participar do sorteio de uma corrida grátis
+</p>
+
+<button id="botaoSorteio" onclick="executarSorteio()" >  
+  Corrida de graça
+</button>
+
+<script type="text/javascript">
+	function executarSorteio()
+	{
+		aleatorio = Math.round(Math.random()*10)
+		console.log(aleatorio)
+		//alert(aleatorio)
+		chute = prompt("Digite seu número")
+		numeroCerto = chute==aleatorio;
+
+		while(chute>10||chute<0){
+		chute = prompt("Números maiores que 10 são inválidos,tente novamente!")
+}
+		if(numeroCerto){
+		paragrafoResultado.innerHTML = 'Você ganhou o sorteio!'
+	}
+	if(!numeroCerto){
+		paragrafoResultado.innerHTML = 'Tente outra vez!'
+	}
+
+	}
+
+</script>
+
+</body>
+</html>

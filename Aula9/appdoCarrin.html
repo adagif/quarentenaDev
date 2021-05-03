@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>app do carrin</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+
+<label for="inputDistancia"> Distância: </label>
+<input id="inputDistancia" type="text">
+
+<label for="inputTempo"> Tempo min: </label>
+<input id="inputTempo" type="text">
+
+<button id="botaoCalcular" onclick= "calcular()">
+  Calcular
+</button>
+
+
+<script type="text/javascript">
+	function formataMoeda(numero){
+		return numero.toFixed(2).replace(".",",")
+	}
+
+	function calcular(){
+	distancia = inputDistancia.value
+	tempo = inputTempo.value
+	valorcorrida= 2+distancia*1.4+tempo*0.26
+
+	botaoCalcular.innerHTML="Total: R$"+formataMoeda(valorcorrida)
+}
+</script>
+
+</body>
+</html>

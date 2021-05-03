@@ -1,0 +1,25 @@
+img {
+	right: 200px;
+	height: 200px;	
+	display: block;
+	margin-left:auto;
+	margin-right:auto; 
+}
+
+h1{
+	color:#32CD32;
+	text-align:center; 
+}
+
+body{
+	background-color: black;
+}
+
+*{
+	color: #32CD32;
+	font-family: monospace;
+}
+
+.sobre1{
+	color: pink;
+}

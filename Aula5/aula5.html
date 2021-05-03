@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>aula 5</title>
+</head>
+<body>
+<h1 id="tagh1"></h1>
+<h2>Ficha</h2>
+
+<ul id="lista">
+	
+</ul>
+
+<script type="text/javascript">
+	nome = prompt("Digite seu nome: ");
+	tagh1.innerHTML = "Nome: "+nome;
+
+	nascimento = prompt("Data de nascimento: ");
+	temCondicao = confirm("Tem alguma condição pré-existente?");
+
+	if(temCondicao==true){
+	estadodesaude = "sim";
+}
+	else{
+	estadodesaude = "não";
+}
+
+	if(temCondicao==true){
+	acompanhamento = "Precisa de acompanhamento médico";
+}
+	else{
+	acompanhamento = "Não precisa de acompanhamento";
+}
+
+	idade = prompt("Idade: ");
+	lista.innerHTML =
+	`<li>Data nascimento: ${nascimento}</li>
+	<li>Idade: ${idade}</li>
+	<li>Tem condição pré-existente: ${estadodesaude}</li>
+	<li>${acompanhamento}</li>`
+</script>
+</body>
+</html>

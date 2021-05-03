@@ -1,0 +1,49 @@
+body{
+	color: gray;
+}
+
+h1{
+	margin: 20px;
+	border:5px solid black;
+	padding: 10px;
+
+	height: 100px;
+	width: 100px;
+	box-shadow: 
+	516px 1px 0px 0px black,
+	645px 1px 0px 0px black, 
+	774px 1px 0px 0px black,
+	903px 1px 0px 0px black,
+	903px 130px 0px 0px rgb(180, 16, 16),
+	1032px 130px 0px 0px black,
+	1161px 130px 0px 0px black,
+	774px 130px 0px 0px rgb(180, 16, 16),
+	645px 130px 0px 0px rgb(180, 16, 16),
+	516px 130px 0px 0px rgb(228, 23, 23),
+	387px 130px 0px 0px black,
+	258px 130px 0px 0px black,
+	258px 260px 0px 0px rgb(228, 23, 23),
+	387px 260px 0px 0px rgb(228, 23, 23),
+	129px 260px 0px 0px black,
+	516px 260px 0px 0px rgb(224, 36, 46),
+	645px 260px 0px 0px rgb(228, 23, 23),
+	774px 260px 0px 0px rgb(180, 16, 16),
+	903px 260px 0px 0px rgb(180, 16, 16),
+	1032px 260px 0px 0px rgb(180, 16, 16),
+	1161px 260px 0px 0px rgb(180, 16, 16),
+	1161px 260px 0px 0px rgb(180, 16, 16),
+	1290px 260px 0px 0px black,
+	1290px 260px 0px 0px black,
+	1161px 390px 0px 0px rgb(180, 16, 16),
+	1032px 390px 0px 0px rgb(180, 16, 16),
+	903px 390px 0px 0px rgb(228, 23, 23),
+	774px 390px 0px 0px rgb(228, 23, 23),
+	645px 390px 0px 0px rgb(224, 36, 46),
+	1290px 390px 0px 0px black,
+	516px 390px 0px 0px white,
+	387px 390px 0px 0px rgb(224, 36, 46),
+	258px 390px 0px 0px rgb(228, 23, 23),
+	129px 390px 0px 0px black
+
+}
+	

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Like</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+<img src="https://pbs.twimg.com/media/EUdF7a3XgAEbgFE.jpg">
+<h1>#quarentenaDev</h1>
+	<button id="botao" onclick = "adicionarLike()">0 Like </button>
+
+
+	<script type="text/javascript">
+		
+		quantidadeLikes = 0
+		function adicionarLike(){
+			quantidadeLikes = 1+quantidadeLikes
+			botao.innerHTML = quantidadeLikes+" Likes"
+	}
+	</script>
+
+</body>
+</html>
